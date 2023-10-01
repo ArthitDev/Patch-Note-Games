@@ -1,0 +1,70 @@
+@import url(./card.css);
+@import url(./view-all.css);
+.section-2 {
+  padding-bottom: 50px;
+}
+
+.title-section-type {
+  font-size: 35px;
+  font-family: "Prompt-SemiBold", sans-serif;
+  text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.5) !important;
+}
+
+.title-section-2 {
+  font-size: 60px;
+  font-family: "Prompt-SemiBold", sans-serif;
+  text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.5) !important;
+}
+.sub-title-section-2 {
+  font-family: "Prompt-Medium", sans-serif;
+  text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.5) !important;
+}
+
+/*Lines */
+
+/* Lines */
+.container-lines-2 {
+  padding: 30px;
+}
+.lines-2 {
+  width: 100%;
+  height: 45px;
+  position: relative;
+}
+.lines-2::after,
+.lines-2::before {
+  content: "";
+  position: absolute;
+  margin: auto;
+  height: 2px;
+  background: #72767c;
+  width: 45%;
+  top: 45%;
+}
+.lines-2::after {
+  left: 0;
+}
+.lines-2::before {
+  right: 0;
+}
+.diamond-2 {
+  height: 40px;
+  width: 40px;
+  border: 5px solid #72767c;
+  left: 0;
+  right: 0;
+  top: 20;
+  bottom: 0;
+  margin: auto;
+  transform: rotate(45deg);
+}
+
+@media (max-width: 768px) {
+  .diamond-2 {
+    height: 20px;
+    width: 20px;
+  }
+  .lines-2 {
+    height: 20px;
+  }
+}

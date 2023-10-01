@@ -1,0 +1,104 @@
+.nav-logo {
+  max-width: 100%;
+  width: 85px;
+}
+
+.navbar {
+  background-color: #222831;
+}
+.navbar a {
+  font-size: 18px;
+  font-family: "Prompt-Regular";
+}
+
+.navbar-brand {
+  padding-bottom: var(--bs-navbar-brand-padding) !important;
+}
+
+.navbar-text.text-white {
+  font-size: 23px !important;
+  margin-top: -5px;
+}
+
+.navbar-text.text-white:hover {
+  color: #0cc0df !important;
+}
+
+.navbar a:hover {
+  color: #0cc0df !important;
+}
+.nav-link.active {
+  color: #0cc0df !important;
+}
+.btn-success {
+  color: white !important;
+  background-color: #0cc0df !important;
+}
+.btn.btn-success:hover {
+  background-color: #0a9cb6 !important;
+  color: white !important;
+}
+
+.fas fa-bars {
+  background-color: white;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.navbar-toggler {
+  margin-bottom: 5px;
+  font-size: 2rem !important;
+}
+.navbar-toggler span {
+  display: block;
+  background-color: white;
+  height: 3px;
+  width: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  position: relative;
+  left: 0;
+  opacity: 1;
+  transition: all 0.35s ease-out;
+  transform-origin: center left;
+}
+
+.navbar-toggler span:nth-child(1) {
+  transform: translate(0%, 0%) rotate(0deg);
+}
+
+.navbar-toggler span:nth-child(2) {
+  opacity: 1;
+}
+
+.navbar-toggler span:nth-child(3) {
+  transform: translate(0%, 0%) rotate(0deg);
+}
+
+.navbar-toggler span:nth-child(1) {
+  margin-top: 0.3em;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(1) {
+  transform: translate(15%, -33%) rotate(45deg);
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(2) {
+  opacity: 0;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(3) {
+  transform: translate(15%, 33%) rotate(-45deg);
+}
+
+.navbar-collapse {
+  overflow: hidden !important;
+  transition: 0.3s ease-in-out !important;
+}
+
+.navbar-collapse.show {
+  max-height: 500px !important;
+}

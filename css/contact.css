@@ -1,0 +1,15 @@
+@import url(./banner.css);
+@import url(./navbar.css);
+@import url(./footer.css);
+@import url(./nav-footer.css);
+@import url(./font.css);
+@import url(./footer.css);
+@import url(./contact-banner.css);
+@import url(./contact-form.css);
+@import url(./social-media.css);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+

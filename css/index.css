@@ -1,0 +1,24 @@
+@import url(./banner.css);
+@import url(./navbar.css);
+@import url(./tooltip.css);
+@import url(./owl.carousel.min.css);
+@import url(./owl.carousel.css);
+@import url(./footer.css);
+@import url(./nav-footer.css);
+@import url(./section-2.css);
+@import url(./font.css);
+@import url(./section-1.css);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  /* background: linear-gradient(to bottom, #fff, #bff3ff9b); */
+}
+.section-1{
+  
+}

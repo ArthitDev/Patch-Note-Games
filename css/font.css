@@ -1,0 +1,43 @@
+/*-----------------------------Font-Prompt--------------------------------*/
+@font-face {
+  font-family: "Prompt-Bold";
+  src: local("Prompt-Bold"), 
+  url("../Font/Prompt-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Prompt-Medium";
+  src: local("Prompt-Medium"),
+    url("../Font/Prompt-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Prompt-SemiBold";
+  src: local("Prompt-SemiBold"),
+    url("../Font/Prompt-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Prompt-Regular";
+  src: local("Prompt-Regular"),
+    url("../Font/Prompt-Regular.ttf") format("truetype");
+}
+
+/*-----------------------------Font-Kanit--------------------------------*/
+@font-face {
+  font-family: "Kanit-Bold"; 
+  src: local("Kanit-Bold"), 
+    url("../Font/Kanit-Bold.ttf") format("truetype"); 
+}
+@font-face {
+  font-family: "Kanit-Medium"; 
+  src: local("Kanit-Medium"), 
+    url("../Font/Kanit-Medium.ttf") format("truetype"); 
+}
+@font-face {
+  font-family: "Kanit-Regular"; 
+  src: local("Kanit-Regular"), 
+    url("../Font/Kanit-Regular.ttf") format("truetype"); 
+}
+@font-face {
+  font-family: "Kanit-SemiBold"; 
+  src: local("Kanit-SemiBold"), 
+    url("../Font/Kanit-SemiBold.ttf") format("truetype"); 
+}

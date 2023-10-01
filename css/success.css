@@ -1,0 +1,36 @@
+@import url(./banner.css);
+@import url(./navbar.css);
+@import url(./footer.css);
+@import url(./nav-footer.css);
+@import url(./font.css);
+@import url(./footer.css);
+@import url(./rov-section-1.css);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.c-item {
+  height: 435px;
+  font-family: "Prompt-Bold", sans-serif !important;
+  font-style: italic;
+  font-size: 24px;
+  text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.5) !important;
+}
+
+.c-img {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.4);
+  object-position: 0 25%;
+}
+
+.backto-btn {
+  font-size: 20px !important;
+  transition: ease-in-out 0.3s;
+}
+.backto-btn:hover {
+  transition: ease-in-out 0.3s;
+  border-color: rgb(84, 160, 189) !important;
+  background: rgb(84, 160, 189) !important;
+}

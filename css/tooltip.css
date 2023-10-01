@@ -1,0 +1,31 @@
+.box {
+  position: relative;
+}
+#tooltip {
+  position: fixed;
+  margin-top: -93px;
+  transform: translateX(-70%);
+  background-color: #222831;
+  color: #fff;
+  white-space: nowrap;
+  padding: 10px 15px;
+  border-radius: 7px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+#tooltip::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 95%;
+  transform: translateX(-50%);
+  border: 15px solid;
+  border-color: #222831 #0000 #0000 #0000;
+  transition: opacity 0.5s ease;
+}
+
+.box:hover #tooltip {
+  opacity: 1;
+  visibility: visible;
+}
