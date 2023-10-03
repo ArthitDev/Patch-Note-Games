@@ -1,0 +1,15 @@
+@import url(../css/banner.css);
+@import url(../css/navbar.css);
+@import url(../css/footer.css);
+@import url(../css/nav-footer.css);
+@import url(../css/font.css);
+@import url(../css/footer.css);
+@import url(./rov-banner.css);
+@import url(./rov-section-1.css);
+@import url(./rov-section-2.css);
+@import url(./rov-text.css);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}

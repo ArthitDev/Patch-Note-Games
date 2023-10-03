@@ -1,0 +1,70 @@
+.section-1{
+  padding-top: 20px;
+}
+.title-text-1 {
+  font-size: 60px;
+  padding-top: 30px;
+  font-family: "Prompt-SemiBold", sans-serif;
+  color: #0cc0df !important;
+}
+
+.sub-title-1 {
+  font-family: "Prompt-Medium", sans-serif;
+  color: #0cc0df !important;
+}
+.title-card {
+  font-family: "Prompt-Bold", sans-serif !important;
+  font-size: 24px;
+  text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.5) !important;
+}
+.card-content {
+  font-family: "Prompt-Regular", sans-serif !important;
+  font-size: 16px !important;
+}
+
+/* Lines */
+.container-lines {
+  padding: 25px;
+}
+.lines {
+  width: 100%;
+  height: 45px;
+  position: relative;
+}
+.lines::after,
+.lines::before {
+  content: "";
+  position: absolute;
+  margin: auto;
+  height: 2px;
+  background: #72767c;
+  width: 45%;
+  top: 45%;
+}
+.lines::after {
+  left: 0;
+}
+.lines::before {
+  right: 0;
+}
+.diamond {
+  height: 40px;
+  width: 40px;
+  border: 5px solid #72767c;
+  left: 0;
+  right: 0;
+  top: 20;
+  bottom: 0;
+  margin: auto;
+  transform: rotate(45deg);
+}
+
+@media (max-width: 768px) {
+  .diamond {
+    height: 20px;
+    width: 20px;
+  }
+  .lines {
+    height: 20px;
+  }
+}

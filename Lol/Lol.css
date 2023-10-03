@@ -1,0 +1,15 @@
+@import url(../css/banner.css);
+@import url(../css/navbar.css);
+@import url(../css/footer.css);
+@import url(../css/nav-footer.css);
+@import url(../css/font.css);
+@import url(../css/footer.css);
+@import url(./Lol-banner.css);
+@import url(./Lol-section-1.css);
+@import url(./Lol-section-2.css);
+@import url(./Lol-text.css);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}

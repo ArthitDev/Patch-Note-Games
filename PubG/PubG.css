@@ -1,0 +1,18 @@
+@import url(../css/banner.css);
+@import url(../css/navbar.css);
+@import url(../css/footer.css);
+@import url(../css/nav-footer.css);
+@import url(../css/font.css);
+@import url(../css/footer.css);
+@import url(./PubG-banner.css);
+@import url(./PubG-section-1.css);
+@import url(./PubG-section-2.css);
+@import url(./PubG-text.css);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.pubg-text{
+  font-size: 70px !important;
+}
