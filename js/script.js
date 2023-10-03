@@ -13,7 +13,7 @@ $(document).ready(function () {
         margin: 10,
         nav: true,
         autoplay: true,
-        autoplayTimeout: 3500,
+        autoplayTimeout: 3000,
         autoplayHoverPause: true,
         center: true,
         navText: [

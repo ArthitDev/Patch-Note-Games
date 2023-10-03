@@ -1,16 +1,16 @@
-.section-1 {
-  padding-bottom: 0px;
+.section-1{
+  padding-top: 20px;
 }
 .title-text-1 {
   font-size: 60px;
   padding-top: 30px;
   font-family: "Prompt-SemiBold", sans-serif;
-  text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.5) !important;
+  color: #0cc0df !important;
 }
 
 .sub-title-1 {
   font-family: "Prompt-Medium", sans-serif;
-  text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.5) !important;
+  color: #0cc0df !important;
 }
 .title-card {
   font-family: "Prompt-Bold", sans-serif !important;

@@ -22,6 +22,7 @@
 
 .navbar-text.text-white:hover {
   color: #0cc0df !important;
+  transition: ease-in-out 0.3s !important;
 }
 
 .navbar a:hover {
@@ -101,4 +102,10 @@
 
 .navbar-collapse.show {
   max-height: 500px !important;
+}
+
+@media  (max-width:768px) {
+  .nav-logo{
+    width: 50px;
+  }
 }
