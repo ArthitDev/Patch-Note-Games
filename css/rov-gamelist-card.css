@@ -143,9 +143,6 @@
     opacity: 1;
   }
 
-  .news-card:hover .news-card__text-wrapper {
-    /* background-color: rgba(0, 0, 0, 0.6); */
-  }
 
   .news-card:hover .news-card__title {
     color: yellow;
