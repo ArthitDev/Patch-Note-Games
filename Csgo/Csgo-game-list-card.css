@@ -78,7 +78,7 @@
   transition: transform 3s ease;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  object-position: 50%;
+  object-position: 0%;
   position: relative;
   z-index: -1;
 }
