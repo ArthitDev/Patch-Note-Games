@@ -17,7 +17,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  /* background: linear-gradient(to bottom, #fff, #bff3ff9b); */
+  background-color: #eceaea !important;
 }
 .section-1{
   

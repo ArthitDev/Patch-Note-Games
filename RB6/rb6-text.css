@@ -1,0 +1,36 @@
+.rb6-main-content {
+  font-family: "Prompt-Regular", sans-serif !important;
+  font-size: 18px;
+}
+.rb6-text-1 {
+  text-indent: 3rem;
+  line-height: 2rem;
+  text-align: justify;
+  padding-bottom: 10px;
+}
+.rb6-text-1 span {
+  font-family: "Prompt-Bold", sans-serif !important;
+  font-size: 50px;
+  color: #0cc0df !important;
+  padding: 1px;
+}
+.rb6-text-2 {
+  text-indent: 3.5rem;
+  text-align: justify;
+  line-height: 2rem;
+  padding-bottom: 10px;
+}
+.rb6-text-2 span {
+  border-left: thick solid #0cc0df;
+  padding: 5px;
+}
+.rb6-text-3 {
+  text-indent: 10rem;
+  text-align: justify;
+  line-height: 2rem;
+}
+.rb6-text-4 {
+  text-indent: 10rem;
+  text-align: justify;
+  line-height: 2rem;
+}

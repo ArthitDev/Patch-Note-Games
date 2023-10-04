@@ -4,14 +4,15 @@
 @import url(../css/nav-footer.css);
 @import url(../css/font.css);
 @import url(../css/footer.css);
-@import url(./rov-banner.css);
-@import url(./rov-section-1.css);
-@import url(./rov-section-2.css);
-@import url(./rov-text.css);
+@import url(./Fortnite-banner.css);
+@import url(./Fortnite-section-1.css);
+@import url(./Fortnite-section-2.css);
+@import url(./Fortnite-text.css);
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth !important;
 }
 body {
   background-color: #eceaea !important;

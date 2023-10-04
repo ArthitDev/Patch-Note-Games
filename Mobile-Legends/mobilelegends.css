@@ -4,15 +4,16 @@
 @import url(../css/nav-footer.css);
 @import url(../css/font.css);
 @import url(../css/footer.css);
-@import url(./rov-banner.css);
-@import url(./rov-section-1.css);
-@import url(./rov-section-2.css);
-@import url(./rov-text.css);
+@import url(./mbl-banner.css);
+@import url(./mbl-section-1.css);
+@import url(./mbl-section-2.css);
+@import url(./mbl-text.css);
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth !important;
 }
 body {
-  background-color: #eceaea !important;
-}
+    background-color: #eceaea !important;
+  }
