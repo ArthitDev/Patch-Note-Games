@@ -8,6 +8,7 @@
 @import url(./rb6-section-1.css);
 @import url(./rb6-section-2.css);
 @import url(./rb6-text.css);
+@import url(../css/use-all.css);
 * {
   padding: 0;
   margin: 0;

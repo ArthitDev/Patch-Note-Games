@@ -8,6 +8,7 @@
 @import url(./rov-section-1.css);
 @import url(./rov-section-2.css);
 @import url(./rov-text.css);
+@import url(../css/use-all.css);
 * {
   padding: 0;
   margin: 0;

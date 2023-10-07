@@ -4,10 +4,10 @@
 @import url(../css/nav-footer.css);
 @import url(../css/font.css);
 @import url(../css/footer.css);
-@import url(./valo-banner.css);
-@import url(./valo-section-1.css);
-@import url(./valo-section-2.css);
-@import url(./valo-text.css);
+@import url(./lol-wild-rift-banner.css);
+@import url(./lol-wild-rift-section-1.css);
+@import url(./lol-wild-rift-section-2.css);
+@import url(./lol-wild-rift-text.css);
 @import url(../css/use-all.css);
 * {
   padding: 0;

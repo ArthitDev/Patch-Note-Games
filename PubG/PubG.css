@@ -8,6 +8,7 @@
 @import url(./PubG-section-1.css);
 @import url(./PubG-section-2.css);
 @import url(./PubG-text.css);
+@import url(../css/use-all.css);
 * {
   padding: 0;
   margin: 0;
