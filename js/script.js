@@ -35,6 +35,30 @@ $(document).ready(function () {
 });
 
 
+//ค้นหา
+
+function searchPage() {
+    var searchTerm = document.getElementById('searchInput').value.trim().toLowerCase();
+    var sections = document.querySelectorAll('.section-1, .section-2, .footer, .view-all'); 
+
+    for (var i = 0; i < sections.length; i++) {
+        var section = sections[i];
+        var sectionText = section.textContent.trim().toLowerCase();
+
+        if (sectionText.includes(searchTerm)) {
+            // Scroll to the section if found
+            window.scrollTo({
+                top: section.offsetTop,
+                behavior: 'smooth'
+            });
+            return false; // Prevent form submission
+        }
+    }
+
+    alert('ไม่พบข้อมูลที่ค้นหา'); // Display a message if search term is not found
+    return false; // Prevent form submission
+}
+
 
 
 
