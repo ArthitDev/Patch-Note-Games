@@ -9,6 +9,7 @@
 @import url(./lol-wild-rift-section-2.css);
 @import url(./lol-wild-rift-text.css);
 @import url(../css/use-all.css);
+@import url(../css/back-to-top.css);
 * {
   padding: 0;
   margin: 0;

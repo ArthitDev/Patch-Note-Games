@@ -9,6 +9,7 @@
 @import url(./Fortnite-section-1.css);
 @import url(./Fortnite-section-2.css);
 @import url(./Fortnite-text.css);
+@import url(../css/back-to-top.css);
 * {
   padding: 0;
   margin: 0;

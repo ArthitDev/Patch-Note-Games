@@ -7,6 +7,7 @@
 @import url(./gamelist-section-1.css);
 @import url(./gamelist-banner.css);
 @import url(./gamelist-pagination.css);
+@import url(./back-to-top.css);
 *{
     padding: 0;
     margin: 0;

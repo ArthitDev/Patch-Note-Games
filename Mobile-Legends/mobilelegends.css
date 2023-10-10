@@ -9,6 +9,7 @@
 @import url(./mbl-section-1.css);
 @import url(./mbl-section-2.css);
 @import url(./mbl-text.css);
+@import url(../css/back-to-top.css);
 * {
   padding: 0;
   margin: 0;

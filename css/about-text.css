@@ -1,0 +1,39 @@
+.about-main-content {
+  font-family: "Prompt-Regular", sans-serif !important;
+  font-size: 18px;
+}
+.about-text-1 {
+  text-indent: 5rem;
+  line-height: 2rem;
+  text-align: justify;
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .about-text-1 {
+    text-indent: 5rem;
+  }
+}
+.about-text-1 span {
+  font-family: "Prompt-Bold", sans-serif !important;
+  font-size: 26px;
+  padding: 1px;
+}
+.about-text-2 {
+  font-weight: bold;
+}
+/* 
+.about-text-2 span {
+  border-left: thick solid #0cc0df;
+  padding: 5px;
+}
+.about-text-3 {
+  text-indent: 10rem;
+  text-align: justify;
+  line-height: 2rem;
+}
+.about-text-4 {
+  text-indent: 10rem;
+  text-align: justify;
+  line-height: 2rem;
+} */
